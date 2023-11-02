@@ -1,0 +1,33 @@
+<html>
+	<title></title>
+	<head>
+	<style>
+	.flex-container{
+					display:flex;
+					flex-direction:block;
+					flex-wrap:wrap-reverse;
+					background-color:blue;
+					}
+	.flex-{
+					background-color:yellow;
+					margin:10px;
+					padding:20px;
+					font-size:30px;
+		}
+	#one{
+					order:2;
+					flex-grow:9;
+		}
+	#two{
+					flex-grow:8;
+	</style>
+	</head>
+	<body>
+	<h1>create a flex container</h1>
+	<div class="flex-container">
+			<div class="flex-" id="one">i am paragraph1</div>
+			<div class="flex-" id="two">i am paragraph2</div>
+			<div class="flex-">i am paragraph 3</div>
+			<div class="flex-">i am paragraph4</div>
+	</div>
+</html>
